@@ -125,7 +125,7 @@ const App: React.FC = () => {
 
             <div className={'results-container'}>
                 <h1>Result</h1>
-                <p><strong>Note: Result only appears submission and when there are no errors.</strong></p>
+                <p><strong>Note: Result only appears on submission and when there are no errors.</strong></p>
                 <RenderRecords value={submission}/>
             </div>
         </div>
