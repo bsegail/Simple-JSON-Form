@@ -66,7 +66,7 @@ const fields: Array<FieldType> = [
     {
         name: 'mobileNumber',
         label: 'Mobile Number',
-        type: 'text',
+        type: 'tel',
         props: {
             placeholder: 'Mobile Number'
         },
@@ -74,7 +74,7 @@ const fields: Array<FieldType> = [
     {
         name: 'homeNumber',
         label: 'Home Number',
-        type: 'text',
+        type: 'tel',
         props: {
             placeholder: 'Home Number'
         },
@@ -113,6 +113,7 @@ const App: React.FC = () => {
             <div className={'form-container'}>
                 <h1>JSON form</h1>
                 <Form
+
                     value={form}
                     fields={fields}
                     onChange={setForm}

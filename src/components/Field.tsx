@@ -19,7 +19,7 @@ const DynamicComponents: {
     text: Input,
     date: Input,
     select: Select,
-    telephone: Input,
+    tel: Input,
     checkbox: Checkbox
 }
 
