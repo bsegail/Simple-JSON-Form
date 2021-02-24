@@ -1,0 +1,16 @@
+.Field {
+  margin-bottom: 8px;
+  .field-error {
+    display: flex;
+    position: relative;
+    height: 24px;
+
+    > p {
+      margin: 4px 0 0;
+      color: #f14444;
+      font-size: 12px;
+
+
+    }
+  }
+}

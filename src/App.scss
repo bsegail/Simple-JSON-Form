@@ -1,0 +1,27 @@
+.App {
+  padding: 48px;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+
+  .form-container {
+    width: 50%;
+  }
+
+  .results-container {
+    width: 50%;
+  }
+
+  @media(max-width: 768px) {
+    flex-direction: column;
+
+    .form-container {
+      width: 100%;
+    }
+
+    .results-container {
+      width: 100%;
+      margin-top: 24px;
+    }
+  }
+}
